@@ -24,18 +24,8 @@ const nextConfig = {
   trailingSlash: true, // Important for static export
   images: {
     unoptimized: true, // Disable Image Optimization for static export
-    remotePatterns: [
-      {
-        protocol: 'https',
-        hostname: 'images.unsplash.com',
-      },{
-        protocol: 'https',
-        hostname: 'source.unsplash.com',
-      },
-    ],
   },
-  // Adding configuration for static export
-  output: 'export',
+  output: 'export', // Static export configuration
   assetPrefix: './',
   basePath: '',
 };
