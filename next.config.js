@@ -1,6 +1,5 @@
 /* eslint-env node */
 
-// https://github.com/vercel/next.js/blob/master/packages/next/next-server/server/config.ts
 const nextConfig = {
   webpack: config => {
     const oneOfRule = config.module.rules.find(rule => rule.oneOf);
@@ -22,8 +21,9 @@ const nextConfig = {
   productionBrowserSourceMaps: false,
   reactStrictMode: true,
   swcMinify: true,
-  trailingSlash: false,
+  trailingSlash: true, // Important for static export
   images: {
+    unoptimized: true, // Disable Image Optimization for static export
     remotePatterns: [
       {
         protocol: 'https',
@@ -34,6 +34,10 @@ const nextConfig = {
       },
     ],
   },
+  // Adding configuration for static export
+  output: 'export',
+  assetPrefix: './',
+  basePath: '',
 };
 
 module.exports = nextConfig;
