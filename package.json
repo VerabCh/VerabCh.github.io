@@ -50,7 +50,7 @@
     "postcss-preset-env": "^9.1.0",
     "prettier": "^3.0.0",
     "prettier-plugin-tailwindcss": "^0.5.7",
-    "sass": "^1.64.2",
+    "sass": "^1.77.8",
     "sort-package-json": "^2.5.1",
     "stylelint": "^15.10.2",
     "stylelint-config-recommended": "^13.0.0",
