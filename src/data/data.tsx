@@ -95,15 +95,15 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `I possess almost three years of experience as a Software Engineer at Tata Consultancy Services, where I have been consulting for the biopharmaceutical company AMGEN. Throughout my tenure, I have acquired and mastered proficiency in Salesforce, leveraging this expertise to successfully address diverse tasks and projects assigned by AMGEN.
+  description: `I possess over four years of experience as a Software Engineer at Tata Consultancy Services, where I have been consulting for the biopharmaceutical company AMGEN. Throughout my tenure, I have acquired and mastered proficiency in Salesforce, leveraging this expertise to successfully address diverse tasks and projects assigned by AMGEN.
 
   Beyond my professional commitments, I am passionate about engaging in side projects, particularly in languages such as Python and Java. I draw inspiration from conceptualizing ideas and derive immense satisfaction from bringing them to fruition through code.`,
   aboutItems: [
     {label: 'Location', text: 'Los Angeles, California', Icon: MapIcon},
-    {label: 'Age', text: '24', Icon: CalendarIcon},
+    {label: 'Age', text: '26', Icon: CalendarIcon},
     {label: 'Nationality', text: 'Armenian/American', Icon: FlagIcon},
     {label: 'Interests', text: 'Snowboarding, Rockclimbing, Dancing', Icon: SparklesIcon},
-    {label: 'Study', text: 'California State University Northridge', Icon: AcademicCapIcon},
+    {label: 'Study', text: 'California State University, Northridge', Icon: AcademicCapIcon},
     {label: 'Employment', text: 'Tata Consultancy Services', Icon: BuildingOffice2Icon},
   ],
 };
