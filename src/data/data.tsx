@@ -228,55 +228,55 @@ export const experience: TimelineItem[] = [
     date: 'August 2021 - Present',
     location: 'Tata Consultancy Services',
     title: 'Software Engineer',
-content: (
-  <>
-    <p className="text-sm mb-4">
-      Client: Amgen - A global biotechnology leader focused on translating
-      scientific breakthroughs into life-saving medicines.
-    </p>
+    content: (
+      <>
+        <p className="text-sm mb-4">
+          Client: Amgen - A global biotechnology leader focused on translating
+          scientific breakthroughs into life-saving medicines.
+        </p>
 
-    {/* Project 1 */}
-    <p className="font-semibold mt-4">Project 1:</p>
+        {/* Project 1 */}
+        <p className="font-semibold mt-4">Project 1:</p>
 
-    <ul className="list-disc list-inside text-sm space-y-1 mt-2">
-      <li>
-        Lead and sole developer for a production-facing application focused on
-        fulfilling business requirements.
-      </li>
-      <li>
-        Responsible for maintaining LWC, AURA, Apex classes, and integrations to
-        ensure the application’s functionality and best practices.
-      </li>
-    </ul>
+        <ul className="list-disc list-inside text-sm space-y-1 mt-2">
+          <li>
+            Lead and sole developer for a production-facing application focused on
+            fulfilling business requirements.
+          </li>
+          <li>
+            Responsible for maintaining LWC, AURA, Apex classes, and integrations to
+            ensure the application’s functionality and best practices.
+          </li>
+        </ul>
 
-    <p className="text-sm mt-2">
-      Languages and tools used: Jira, SFDX, Copado, AWS Lambda, Databricks, JS,
-      HTML, CSS, LWC, Aura, Apex, SOQL
-    </p>
+        <p className="text-sm mt-2">
+          Languages and tools used: Jira, SFDX, Copado, AWS Lambda, Databricks, JS,
+          HTML, CSS, LWC, Aura, Apex, SOQL
+        </p>
 
-    {/* Project 2 */}
-    <p className="font-semibold mt-4">Project 2:</p>
+        {/* Project 2 */}
+        <p className="font-semibold mt-4">Project 2:</p>
 
-    <ul className="list-disc list-inside text-sm space-y-1 mt-2">
-      <li>
-        Support and data engineer for production-facing application utilized by
-        clients across the globe.
-      </li>
-      <li>
-        Investigate and perform data analysis on SOQL database to provide
-        requested data to client within strict timeframes.
-      </li>
-      <li>
-        Perform new and regressive QA testing during each quarterly update of
-        the application for Amgen.
-      </li>
-    </ul>
+        <ul className="list-disc list-inside text-sm space-y-1 mt-2">
+          <li>
+            Support and data engineer for production-facing application utilized by
+            clients across the globe.
+          </li>
+          <li>
+            Investigate and perform data analysis on SOQL database to provide
+            requested data to client within strict timeframes.
+          </li>
+          <li>
+            Perform new and regressive QA testing during each quarterly update of
+            the application for Amgen.
+          </li>
+        </ul>
 
-    <p className="text-sm mt-2">
-      Languages and tools used: Jira, SFDX, SOQL, SF Data Loader, Service Now
-    </p>
-  </>
-),
+        <p className="text-sm mt-2">
+          Languages and tools used: Jira, SFDX, SOQL, SF Data Loader, Service Now
+        </p>
+      </>
+    ),
   }
 ];
 
