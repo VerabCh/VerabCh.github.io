@@ -231,16 +231,34 @@ export const experience: TimelineItem[] = [
     content: (
       <>
       <p>
-        Serve as the liaison between Tata Consultancy Services and Amgen.
+        Client: Amgen - A global biotechnology leader focused on translating scientific breakthroughs into life-saving medicines. 
       </p>
       <p>
-      Develop new functionality using Salesforce's object oriented language, APEX, to meet new needs of Amgen client. 
+      Project 1:  
       </p>  
       <p>
-        Investigate and perform data analysis on SOQL database to provide requested data to Amgen within strict timeframes, pulling data more than 10 times a week.
+        Lead and sole developer for a production-facing application focused on fulfilling business requirements. 
       </p>
       <p>
-        Perform new and regressive QA testing during each quarterly update of the software for Amgen. 
+        Responsible for maintaining LWC, AURA,  Apex classes, and integrations to ensure the application’s functionality and best practices. 
+      </p>
+      <p>
+        Languages and tools used: Jira, SFDX, Copado, AWS Lambda, Databricks, JS, HTML, CSS, LWC, Aura, Apex, SOQL
+      </p>
+      <p>
+      Project 2:
+      </p>
+      <p>
+        Support and data engineer for production-facing application utilized by clients across the globe. 
+      </p>
+      <p>
+        Investigate and perform data analysis on SOQL database to provide requested data to client within strict timeframes.
+      </p>
+      <p>
+        Perform new and regressive QA testing during each quarterly update of the application for Amgen.
+      </p>
+      <p>
+        Languages and tools used: Jira, SFDX, SOQL, SF Data Loader, Service Now
       </p>
       </>
     ),
