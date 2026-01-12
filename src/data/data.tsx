@@ -77,7 +77,7 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: 'https://docs.google.com/document/d/1ULPDr7eOKnwbeQVAq-ED-uv5rbytcITzrz54Vembhmk/edit?usp=sharing',
+      href: 'https://docs.google.com/document/d/16QnZ_wrSH7aC2rGUzLxxTshILw_Y-MpVxNTC0_fPV3Q/edit?tab=t.0',
       text: 'Resume',
       primary: true,
       Icon: ArrowDownTrayIcon,
@@ -133,8 +133,8 @@ export const skills: SkillGroup[] = [
         level: 7,
       },
       {
-        name: 'Typescript',
-        level: 7,
+        name: 'JavaScript',
+        level: 9,
       },
       {
         name: 'Flutter',
@@ -154,8 +154,8 @@ export const skills: SkillGroup[] = [
         level: 9,
       },
       {
-        name: 'C#',
-        level: 6,
+        name: 'AWS Lambda',
+        level: 8,
       },
     ],
   },
@@ -167,7 +167,7 @@ export const skills: SkillGroup[] = [
         level: 9,
       },
       {
-        name: 'SOQL',
+        name: 'Copado',
         level: 9,
       },
       {
@@ -230,9 +230,9 @@ export const experience: TimelineItem[] = [
     title: 'Software Engineer',
     content: (
       <>
-        <p className="text-sm mb-4">
-          Client: Amgen - A global biotechnology leader focused on translating
-          scientific breakthroughs into life-saving medicines.
+        <p className="text-sm mb-3">
+          <strong>Client:</strong> Amgen - A global biotechnology leader focused on
+          translating scientific breakthroughs into life-saving medicines.
         </p>
 
         {/* Project 1 */}
