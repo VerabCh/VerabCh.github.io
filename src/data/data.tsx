@@ -216,7 +216,7 @@ export const education: TimelineItem[] = [
     date: 'August 2018 - May 2021',
     location: 'California State University Northridge',
     title: "B.S. in Computer Science",
-    content: <p>I actively engaged in diverse school activities, including participation in the Armenian Student Association, 
+    content: <p className="text-sm leading-relaxed">I actively engaged in diverse school activities, including participation in the Armenian Student Association, 
       while concurrently prioritizing my academic pursuits. Through this,
       I acquired a comprehensive understanding of both theoretical principles and practical applications relevant to my field, preparing myself for future endeavors. 
       At the end of my time in university, I successfully earned my degree in Computer Science, completing a total of 164 units and achieving a GPA of 3.57. </p>,
