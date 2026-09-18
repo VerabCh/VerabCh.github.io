@@ -165,7 +165,7 @@ export const skills: SkillGroup[] = [
     ],
   },
   {
-    name: 'Cloud, data & AI',
+    name: 'Cloud, Data & AI',
     skills: [
       {
         name: 'SQL / SOQL',
