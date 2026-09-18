@@ -95,7 +95,7 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `I possess over four years of experience as a Software Engineer at Tata Consultancy Services, where I have been consulting for the biopharmaceutical company AMGEN. Throughout my tenure, I have acquired and mastered proficiency in Salesforce, leveraging this expertise to successfully address diverse tasks and projects assigned by AMGEN.
+  description: `I bring over five years of software engineering experience supporting the global biopharmaceutical company Amgen, first as a Software Engineer with Tata Consultancy Services and now as a Platform Programmer II with Milestone Technologies. Throughout this time, I have designed, developed, maintained, and supported enterprise applications across Salesforce, Dynamics 365, AWS, and related data platforms. As a lead and sole developer, I translate business requirements into reliable technical solutions, manage integrations and production issues, and collaborate closely with stakeholders throughout the software development lifecycle.
 
   Beyond my professional commitments, I am passionate about engaging in side projects, particularly in languages such as Python and Java. I draw inspiration from conceptualizing ideas and derive immense satisfaction from bringing them to fruition through code.`,
   aboutItems: [
@@ -126,53 +126,54 @@ export const skills: SkillGroup[] = [
     ],
   },
   {
-    name: 'Frontend development',
-    skills: [
-      {
-        name: 'React',
-        level: 7,
-      },
-      {
-        name: 'JavaScript',
-        level: 9,
-      },
-      {
-        name: 'Flutter',
-        level: 7,
-      },
-    ],
-  },
   {
-    name: 'Backend development',
-    skills: [
-      {
-        name: 'Java',
-        level: 9,
-      },
-      {
-        name: 'Python',
-        level: 9,
-      },
-      {
-        name: 'AWS Lambda',
-        level: 8,
-      },
-    ],
-  },
-  {
-    name: 'Additional Softwares',
+    name: 'Enterprise platforms',
     skills: [
       {
         name: 'Salesforce',
         level: 9,
       },
       {
-        name: 'Copado',
+        name: 'Dynamics 365',
         level: 9,
       },
       {
-        name: 'Jira',
+        name: 'Power BI',
+        level: 8,
+      },
+    ],
+  },
+  {
+    name: 'Software development',
+    skills: [
+      {
+        name: 'Apex / LWC',
         level: 9,
+      },
+      {
+        name: 'JavaScript',
+        level: 8,
+      },
+      {
+        name: 'C#',
+        level: 8,
+      },
+    ],
+  },
+  {
+    name: 'Cloud, data & AI',
+    skills: [
+      {
+        name: 'SQL / SOQL',
+        level: 9,
+      },
+      {
+        name: 'AWS',
+        level: 8,
+      },
+      {
+        name: 'Agentforce',
+        level: 8,
       },
     ],
   },
@@ -213,19 +214,107 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
+    date: 'April 2026 - Expected May 2028',
+    location: 'University of California, Berkeley',
+    title: 'M.S. in Molecular Science and Software Engineering',
+    content: (
+      <p className="text-sm leading-relaxed">
+        I’m currently pursuing my master’s degree in Molecular Science and Software Engineering 
+        because I want to build on my software engineering experience and learn how machine learning and computational 
+        science can be used to solve meaningful problems in healthcare. My work at Amgen has shown me how much thoughtfully 
+        designed technology can influence the way people work and make decisions, motivating me to challenge myself in a program 
+        that brings software and science together. I hope to use what I learn to create tools that support scientific discovery and 
+        ultimately improve human health.
+      </p>
+    ),
+  },
+  {
     date: 'August 2018 - May 2021',
-    location: 'California State University Northridge',
-    title: "B.S. in Computer Science",
-    content: <p className="text-sm leading-relaxed">I actively engaged in diverse school activities, including participation in the Armenian Student Association, 
-      while concurrently prioritizing my academic pursuits. Through this,
-      I acquired a comprehensive understanding of both theoretical principles and practical applications relevant to my field, preparing myself for future endeavors. 
-      At the end of my time in university, I successfully earned my degree in Computer Science, completing a total of 164 units and achieving a GPA of 3.57. </p>,
-  }
+    location: 'California State University, Northridge',
+    title: 'B.S. in Computer Science',
+    content: (
+      <p className="text-sm leading-relaxed">
+        I earned my Bachelor of Science in Computer Science with a 3.57 GPA.
+        My coursework established a strong foundation in algorithms, data
+        structures, software design, and system architecture, while advanced
+        electives in machine learning, human-computer interaction, and software
+        requirements helped me connect technical theory with practical software
+        development. I also participated in the Armenian Student Association
+        alongside my academic work.
+      </p>
+    ),
+  },
 ];
 
 export const experience: TimelineItem[] = [
   {
-    date: 'August 2021 - Present',
+    date: 'April 2026 - Present',
+    location: 'Milestone Technologies, Inc.',
+    title: 'Platform Programmer II',
+    content: (
+      <>
+        <p className="text-sm mb-3">
+          <strong>Client:</strong> Amgen - A global biotechnology leader focused on
+          translating scientific breakthroughs into life-saving medicines.
+        </p>
+
+        {/* Project 1 */}
+        <p className="font-semibold mt-4">
+          Project 1: Enterprise CRM Platform
+        </p>
+
+        <ul className="list-disc list-inside text-sm space-y-1 mt-2">
+          <li>
+            Lead and sole developer for a cross-platform enterprise application
+            supporting critical business requirements.
+          </li>
+          <li>
+            Own application integrations, infrastructure, and production support
+            across Dynamics 365, AWS, and Salesforce, troubleshooting application,
+            integration, and data-related issues through resolution.
+          </li>
+          <li>
+            Perform data querying and analysis using XrmToolBox, develop ERDs to
+            document and communicate CRM data relationships, and support
+            data-driven technical decision-making.
+          </li>
+          <li>
+            Serve as the primary technical resource, advising business stakeholders
+            on platform, integration, architecture, and data decisions.
+          </li>
+        </ul>
+
+        <p className="text-sm mt-2">
+          Languages and tools used: Jira, Dynamics 365, Azure, Power Apps, AWS,
+          SFDX, Copado, JavaScript, HTML, CSS, LWC, Apex, SQL, XrmToolBox,
+          SharePoint, Visual Studio, C#, IIS, Postman, Plugin Registration Tool
+        </p>
+
+        {/* Project 2 */}
+        <p className="font-semibold mt-4">
+          Project 2: Salesforce Application
+        </p>
+
+        <ul className="list-disc list-inside text-sm space-y-1 mt-2">
+          <li>
+            Lead and sole developer for a production-facing application focused on
+            fulfilling business requirements.
+          </li>
+          <li>
+            Responsible for maintaining LWC, Aura, Apex classes, and integrations
+            to ensure the application’s functionality and best practices.
+          </li>
+        </ul>
+
+        <p className="text-sm mt-2">
+          Languages and tools used: Jira, SFDX, Copado, AWS Lambda, Databricks,
+          JavaScript, HTML, CSS, LWC, Aura, Apex, SOQL, Power BI, Agentforce
+        </p>
+      </>
+    ),
+  },
+  {
+    date: 'August 2021 - April 2026',
     location: 'Tata Consultancy Services',
     title: 'Software Engineer',
     content: (
@@ -277,7 +366,7 @@ export const experience: TimelineItem[] = [
         </p>
       </>
     ),
-  }
+  },
 ];
 
 /**
