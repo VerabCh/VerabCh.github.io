@@ -126,7 +126,6 @@ export const skills: SkillGroup[] = [
     ],
   },
   {
-  {
     name: 'Enterprise platforms',
     skills: [
       {
