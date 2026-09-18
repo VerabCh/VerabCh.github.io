@@ -64,9 +64,14 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Los Angeles based <strong className="text-stone-100"> Software Engineer</strong>, currently working
-        at <strong className="text-stone-100">Tata Consultancy Services</strong> looking for an opportunity to take the
-        next step in my career and find an opportunity to grow in my field. 
+        I'm a Los Angeles-based{' '}
+        <strong className="text-stone-100">Software Engineer</strong> currently
+        working at{' '}
+        <strong className="text-stone-100">Milestone Technologies</strong>,
+        where I develop and support enterprise applications for Amgen. I’m
+        continuing to grow my experience across software development, cloud
+        technologies, and data while pursuing my M.S. in Molecular Science and
+        Software Engineering at UC Berkeley.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
       Beyond my professional commitments, I am an accomplished <strong className="text-stone-100">dancer</strong> with a dedication to my craft. 
@@ -103,8 +108,8 @@ export const aboutData: About = {
     {label: 'Age', text: '26', Icon: CalendarIcon},
     {label: 'Nationality', text: 'Armenian/American', Icon: FlagIcon},
     {label: 'Interests', text: 'Snowboarding, Rockclimbing, Dancing', Icon: SparklesIcon},
-    {label: 'Study', text: 'California State University, Northridge', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Tata Consultancy Services', Icon: BuildingOffice2Icon},
+    {label: 'Study', text: 'University of California, Berkeley', Icon: AcademicCapIcon},
+    {label: 'Employment', text: 'Milestone Technologies, Inc.', Icon: BuildingOffice2Icon},
   ],
 };
 
